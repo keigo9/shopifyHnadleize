@@ -1,4 +1,4 @@
-ShopifyHandleize = function (str) {
+function ShopifyHandleize(str) {
   str = str.toLowerCase();
   var toReplace = ['"', "'", "\\", "(", ")", "[", "]"];
   // For the old browsers
